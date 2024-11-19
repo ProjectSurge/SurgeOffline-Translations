@@ -1,41 +1,119 @@
 {
-    "LobbyInfo": "Welcome to SurgeOffline!",
-    "Inbox": "Welcome to <cfa1111>SurgeOffline!</c>\nOur Telegram channel: https://t.me/surgebrawl\nMod is completely free and not for sale!",
-    "Themes": "All themes: ",
-    "ThemesExample": "Example: /theme 14",
-    "ThemesInvalid": "Invalid theme!",
-    "ThemesOK": "Theme set! Please rejoin the menu.",
-    "PatchBG": "Check some menus!",
-    "TrophiesReset": "Trophies reset! Please rejoin the menu.",
-    "TrophiesInvalid": "Invalid trophies!",
-    "TrophiesOK": "Trophies set! Please rejoin the menu.",
-    "TrophyRoadReset": "Trophy road reset! Please rejoin the menu.",
-    "InvalidAmount": "Invalid amount of rolls!",
-    "BrawlerInvalid": "Invalid brawler ID!",
-    "Vibration": "Vibration",
-    "Outline": "Outline",
-    "AFKPlay": "AFK play",
-    "ArtTest": "Test",
-    "China": "China patch",
-    "Enabled": "enabled",
-    "Disabled": "disabled",
-    "Days": "d",
-    "Hours": "h",
-    "Minutes": "m",
-    "Seconds": "s",
-    "Playtime": "Your playtime: ",
-    "CommandList": "Command list: \n/theme [id] - change a theme\n/patchbg - replace boring background with menu one\n/setTrophies [int]|reset - set or reset trophies\n/setBrawlerTrophies [int] - set brawler trophies\n/afkplay - bot will gonna play instead of you\n/arttest - art test\n/playtime - shows how much time you have spent in the game\n/brawler [id] - create a fake gatcha with your brawler\n/china - enable china version patches\n/gatchabrawlers [int] - brawler gatcha simulation (with odds)\n/vibration - turn vibration on or off\n/trophyroadreset - reset trophy road\n/outline - disable outline",
-    "UnknownCommand": "Unknown comamnd",
-    "SurgeOfflineIsFree": "SurgeOffline is completely free! If you bought this mod, you definitely got scammed. Our telegram channel: https://t.me/surgebrawl",
-    "Loading": "SurgeOffline is loading...",
-    "NextTV": "Next",
-    "RejoinMenu": "Please rejoin the game.",
-    "NotImplemented": "This menu is not available in this version of the game!",
-    "NextCameraModeButton": "Next Camera Mode",
-    "OffersTitles": [
-        "Special Offer!",
-        "Legendary Offer!",
-        "t.me/surgebrawl",
-        "SurgeOffline!"
-    ]
+    "NOT_IMPLEMENTED":"This menu is not available in this version of the game!",
+    
+    "THEMES":"All themes: {themes}",
+    "THEMES_EXAMPLE":"Example: /theme 14",
+    "THEMES_INVALID":"Invalid theme!",
+    "THEMES_OK":"Theme set! Please rejoin the menu.",
+    
+    "TROPHIES_EXAMPLE":"Example: /setTrophies 100",
+    "TROPHIES_RESET":"Trophies have been successfully reset! Please re-enter the menu!",
+    "TROPHIES_INVALID":"Invalid amount of trophies!",
+    "TROPHIES_OK":"Trophies have been successfully set! Please re-enter the menu!",
+    
+    "BRAWLER_TROPHIES_EXAMPLE":"Example: /setBrawlerTrophies 100",
+    "BRAWLER_TROPHIES_INVALID":"Invalid amount of trophies!",
+    "BRAWLER_TROPHIES_OK":"Trophies have been successfully set! Please re-enter the menu!",
+    
+    "BRAWL_PASS_PACK_NOT_IMPLEMENTED":"The purchase of the BRAWL PASS BUNDLE is not available in this version of the game!",
+    
+    "LOCAL_SPECIAL_OFFER":"Special offer!",
+    "LOCAL_LEGENDARY_OFFER":"Legendary offer!",
+    
+    "SLOW_MODE_ON":"SlowMode enabled!",
+    "SLOW_MODE_OFF":"SlowMode disabled!",
+    
+    "MIRROR_MODE_ON":"Mirror mode enabled!",
+    "MIRROR_MODE_OFF":"Mirror mode disabled!",
+    
+    "BOT_MODE_ON":"Now a bot will play for you!",
+    "BOT_MODE_OFF":"Now a bot will not play for you!",
+    
+    "STATIC_BACKGROUND_ON":"Some game menus will now use a default background!",
+    "STATIC_BACKGROUND_OFF":"Some game menus will now use the background from the main menu!",
+    
+    "SIDE_MASK_ON":"Side mask enabled!",
+    "SIDE_MASK_OFF":"Side mask disabled!",
+    
+    "OUTLINE_ON":"Outline enabled!",
+    "OUTLINE_OFF":"Outline disabled!",
+    
+    "ART_TEST_ON":"ART_TEST enabled!",
+    "ART_TEST_OFF":"ART_TEST disabled!",
+    
+    "FPS_ON":"Showing FPS enabled!",
+    "FPS_OFF":"Showing FPS disabled!",
+    
+    "TICKS_ON":"Showing ticks enabled!",
+    "TICKS_OFF":"Showing ticks disabled!",
+    
+    "DEBUGGER_ON":"Showing Debugger logs enabled!",
+    "DEBUGGER_OFF":"Showing Debugger logs disabled!",
+    
+    "AI_ON":"Now the bots will show signs of life!",
+    "AI_OFF":"Now the bots will not show signs of life!",
+    
+    "HAPTICS_ON":"Vibration enabled!",
+    "HAPTICS_OFF":"Vibration disabled!",
+    
+    "CHINA_ON":"Chinese patches enabled!",
+    "CHINA_OFF":"Chinese patches disabled!",
+    
+    "CAMERA_MODE_SWITCHED":"Camera mode changed!",
+    
+    "PLAYTIME":"Your playtime: {playtime}",
+    
+    "SURGEOFFLINE_IS_FREE":"SurgeOffline is completely free! If you bought this mod, you definitely got scammed. Our telegram channel: https://t.me/surgebrawl",
+    
+    "INBOX_MSG":"Welcome to <cfa1111>SurgeOffline!</c>\nOur Telegram channel: https://t.me/surgebrawl\nMod is completely free and not for sale!",
+    
+    "NO_COMMAND_DEFINED":"Unknown command!",
+    
+    "CHANGE_THEME_BUTTON":"Change Theme",
+    "CHANGE_THEME_TITLE":"Select Theme",
+    "CHANGE_THEME_ALREADY_SELECTED":"This theme already selected! Select another one!",
+    "CHANGE_THEME_EVENT":"You can't change the theme during an event! You can disable events in the Debug menu!",
+    
+    "BIRTHDAY_TITLE":"Choose your Birthday!",
+
+    "BIRTHDAY_DAY":"Day",
+    "BIRTHDAY_MONTH":"Month",
+    "BIRTHDAY_YEAR":"Year",
+
+    "BIRTHDAY_INVALID_INPUT":"Are you sure you entered your birthday correctly?",
+    
+    "BIRTHDAY_TOO_YOUNG":"Are you sure you were born?",
+    "BIRTHDAY_TOO_OLD":"Grandpa, are you sure you know how to play this game?",
+    
+    "BIRTHDAY_BORNED_NOW_TITLE":"Hi, newborn!",
+    "BIRTHDAY_BORNED_NOW":"You still have a lot to go through...",
+
+    "BIRTHDAY_YOUNG_OLD_TITLE":"Are skibidi toilets still popular?",
+    "BIRTHDAY_YOUNG_OLD":"prr skibidi dop dop es es",
+
+    "BIRTHDAY_TEENAGER_OLD_TITLE":"What are you, a grown-up?",
+    "BIRTHDAY_TEENAGER_OLD":"It's too early for you to be measuring pee-pee.",
+    
+    "BIRTHDAY_LEGAL_AGE_TITLE":"Do you still live with your parents?",
+    "BIRTHDAY_LEGAL_AGE":"Go buy a house, jackass.",
+    
+    "BIRTHDAY_GROWN_TITLE":"What are you doing sitting on your ass?",
+    "BIRTHDAY_GROWN":"Go to work, workaholic.",
+    
+    "BIRTHDAY_MATURED_TITLE":"I think you've gone to the wrong apps.",
+    "BIRTHDAY_MATURED":"This is NOT Candy Crush.",
+
+    "BIRTHDAY_GRAND_TITLE":"You want to relive your youth?",
+    "BIRTHDAY_GRAND":"Not a good place, tbh to do that.",
+
+    "BIRTHDAY_OLD_TITLE":"Are you still alive in there?",
+    "BIRTHDAY_OLD":"Prohibition doesn't spare anyone....",
+
+    "BIRTHDAY_MEGA_OLD_TITLE":"Seeking your peace?",
+    "BIRTHDAY_MEGA_OLD":"Wangsheng Funeral Parlor welcomes you!",
+
+    "DAYS":"d",
+    "HOURS":"h",
+    "MINUTES":"m",
+    "SECONDS":"s"
 }

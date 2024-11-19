@@ -1,41 +1,118 @@
 {
-    "LobbyInfo": "Добро пожаловать в SurgeOffline!",
-    "Inbox": "Добро пожаловать в <cfa1111>SurgeOffline!</c>.\nНаш канал в Telegram: https://t.me/surgebrawl\nЭтот мод полностью бесплатен и не продается!",
-    "Themes": "Все темы: ",
-    "ThemesExample": "Пример: /theme 14",
-    "ThemesInvalid": "Неправильная тема!",
-    "ThemesOK": "Тема закрыта! Пожалуйста, вернитесь в меню.",
-    "PatchBG": "Взгляните на некоторые меню.",
-    "TrophiesReset": "Успешно сбросьте чашку! Пожалуйста, вернитесь в меню.",
-    "TrophiesInvalid": "Неправильное количество чашек!",
-    "TrophiesOK": "Чашка уже установлена! Пожалуйста, повторно войдите в меню.",
-    "TrophyRoadReset": "Трофейная дорога сбрасывается! Пожалуйста, вернитесь в меню.",
-    "InvalidAmount": "Количество капель неверно!",
-    "BrawlerInvalid": "ID воина недействителен!",
-    "Vibration": "Wikipedia",
-    "AFKPlay": "простая игра",
-    "Outline": "ударять",
-    "ArtTest": "Тест",
-    "China": "Китайский патч",
-    "Enabled": "включать",
-    "Disabled": "выключать",
-    "RejoinMenu": "Пожалуйста, вернитесь в игры.",
-    "Days": "из",
-    "Hours": "Час",
-    "Minutes": "минута",
-    "Seconds": "и",
-    "Playtime": "твое игровое время: ",
-    "CommandList": "Список команд: \n/theme [id] — изменить тему в меню\n/patchbg — заменить скучный фон на фон в главном меню\n/setTrophies [int]|reset — установить или сбросить трофеи\n/setBrawlerTrophies [int] - Поставьте чашку на brawler\n/afkplay - Бот будет гоняться за вами\n/arttest - Тест\n/playtime - Покажите, сколько времени вы провели в игре\n/brawler [id] - Краш симуляции Brawler\n/china — содержит исправления для Китая.\n/gatchabrawlers [int] — Имитировать падение скандалиста (возможно)\n/trophyroadreset - Сбросить трофейный стержень.\n/outline — отключить контур.",
-    "UnknownCommand": "неизвестная команда",
-    "SurgeOfflineIsFree": "SurgeOffline — бесплатный режим. Если вы купили его, вас обманули. Наш Telegram-канал: https://t.me/surgebrawl",
-    "Loading": "SurgeOffline загружается...",
-    "Next": "дальше",
-    "NotImplemented": "Это меню недоступно в этой версии игры!",
-    "NextCameraModeButton": "Измените режим камеры.",
-    "OffersTitles": [
-        "Специальная акция!",
-        "Легендарная акция!",
-        "t.me/surgebrawl",
-        "SurgeOffline!"
-    ]
+    "NOT_IMPLEMENTED":"Единственно, в этом меню данной версии игры!",
+    
+    "THEMES":"Все темы: {themes}",
+    "THEMES_EXAMPLE":"Например: /theme 14",
+    "THEMES_INVALID":"Тема неверна!",
+    "THEMES_OK":"Установка темы! Пожалуйста, вернитесь к меню.",
+    
+    "TROPHIES_EXAMPLE":"Например: /setTrophies 100",
+    "TROPHIES_RESET":"Трофей был успешно разыгран! Пожалуйста, снова войдите в меню!",
+    "TROPHIES_INVALID":"Количество чашек указано неверно!",
+    "TROPHIES_OK":"Трофей был успешно установлен! Пожалуйста, снова войдите в меню!",
+    
+    "BRAWLER_TROPHIES_EXAMPLE":"Например: /setBrawlerTrophies 100",
+    "BRAWLER_TROPHIES_INVALID":"Количество чашек указано неверно!",
+    "BRAWLER_TROPHIES_OK":"Трофей был успешно установлен! Пожалуйста, снова войдите в меню!",
+    
+    "BRAWL_PASS_PACK_NOT_IMPLEMENTED":"Покупка набора Brawl Pass недоступна для этой версии игры!",
+    
+    "LOCAL_SPECIAL_OFFER":"Специальная акция!",
+    "LOCAL_LEGENDARY_OFFER":"Легендарная акция!",
+    
+    "SLOW_MODE_ON":"Медленный режим включен!",
+    "SLOW_MODE_OFF":"Медленный режим отключен!",
+    
+    "MIRROR_MODE_ON":"Режим зеркала включен!",
+    "MIRROR_MODE_OFF":"Режим зеркала отключен!",
+    
+    "BOT_MODE_ON":"Теперь за вас будет играть робот!",
+    "BOT_MODE_OFF":"Теперь робот не будет за вас играть!",
+    
+    "STATIC_BACKGROUND_ON":"Некоторые меню в игре теперь будут иметь нормальный фон!",
+    "STATIC_BACKGROUND_OFF":"Некоторые игровые меню теперь используют фон главного меню!",
+    
+    "SIDE_MASK_ON":"Показать границу на активной стороне",
+    "SIDE_MASK_OFF":"Боковая маска отключена",
+    
+    "OUTLINE_ON":"Удар состоялся!",
+    "OUTLINE_OFF":"Ударь!",
+    
+    "ART_TEST_ON":"ART_TEST включён!",
+    "ART_TEST_OFF":"ART_TEST закрыт!",
+    
+    "FPS_ON":"Дисплей Фи Пи включен!",
+    "FPS_OFF":"Дисплей Phi pi es выключен!",
+    
+    "TICKS_ON":"Показать галочки!",
+    "TICKS_OFF":"Отображение тиков не работает!",
+    
+    "DEBUGGER_ON":"Отображение журнала отладки включено!",
+    "DEBUGGER_OFF":"Невозможно отобразить журнал отладки!",
+    
+    "AI_ON":"Теперь корабль будет подавать признаки жизни!",
+    "AI_OFF":"На корабле больше не будет видно никаких признаков жизни!",
+    
+    "HAPTICS_ON":"Вибрируйте в следующем!",
+    "HAPTICS_OFF":"Отстань!",
+    
+    "CHINA_ON":"Открыт китайский раздел!",
+    "CHINA_OFF":"Китайский раздел отключен!",
+    
+    "CAMERA_MODE_SWITCHED":"Переключен режим камеры!",
+    
+    "PLAYTIME":"Ваше игровое время: {playtime}",
+    
+    "SURGEOFFLINE_IS_FREE":"SurgeOffline — бесплатный мод. Если вы его купите, вас обманут. Мой канал в Telegram: https://t.me/surgebrawl",
+    
+    "INBOX_MSG":"<cfa1111>Добро пожаловать в SurgeOffline!</c>.\nМой канал в Telegram: https://t.me/surgebrawl\nЭтот мод бесплатен и не продается!",
+    
+    "CHANGE_THEME_BUTTON":"Сменить тему",
+    "CHANGE_THEME_TITLE":"Выберите тему",
+    "CHANGE_THEME_ALREADY_SELECTED":"Тема выбрана! Пожалуйста, выберите другую тему!",
+    
+    "BIRTHDAY_TITLE":"Введи свой день рождения",
+    
+    "BIRTHDAY_DAY":"Смерть",
+    "BIRTHDAY_MONTH":"месяц",
+    "BIRTHDAY_YEAR":"год",
+    
+    "BIRTHDAY_INVALID_INPUT":"Вы уверены, что введенные вами данные верны?",
+    
+    "BIRTHDAY_TOO_YOUNG":"Ты уверен, что ты родился?",
+    "BIRTHDAY_TOO_OLD":"Бабушка, ты умеешь играть в эту игру?",
+    
+    "BIRTHDAY_BORNED_NOW_TITLE":"Привет, детка!",
+    "BIRTHDAY_BORNED_NOW":"Вам предстоит пройти еще долгий путь...",
+    
+    "BIRTHDAY_YOUNG_OLD_TITLE":"Узкие туалеты все еще популярны?",
+    "BIRTHDAY_YOUNG_OLD":"прр шкибиди экстра экстра",
+    
+    "BIRTHDAY_TEENAGER_OLD_TITLE":"Что, взрослею или что-то в этом роде?",
+    "BIRTHDAY_TEENAGER_OLD":"Он слишком труден для тебя.",
+    
+    "BIRTHDAY_LEGAL_AGE_TITLE":"относится к «повестке дня»",
+    "BIRTHDAY_LEGAL_AGE":"В соответствии с Указом Президента Российской Федерации № 647 «О мобилизации физических лиц Российской Федерации» от 21 сентября 2022 года Челябинская область, Челябинская область в Военном комиссариате по адресу:\nг. Челябинск, улица Воровское, 73а\n\nПолучение паспортов, военных билетов, .СНИЛС, частной собственности граждан РФ",
+    
+    "BIRTHDAY_GROWN_TITLE":"Почему ты здесь сидишь?",
+    "BIRTHDAY_GROWN":"Давайте приступим к работе, трудолюбивые люди.",
+    
+    "BIRTHDAY_MATURED_TITLE":"Думаю, ты испортил приложение.",
+    "BIRTHDAY_MATURED":"\"Соответствует 3\" чуть левее.",
+    
+    "BIRTHDAY_GRAND_TITLE":"На пенсии, бабушка!",
+    "BIRTHDAY_GRAND":"Боже мой, дураки, они испортили все, что имели.",
+    
+    "BIRTHDAY_OLD_TITLE":"Ты все еще там живешь?",
+    "BIRTHDAY_OLD":"Ты не нравишься Сталину!",
+    
+    "BIRTHDAY_MEGA_OLD_TITLE":"Ищете покоя?",
+    "BIRTHDAY_MEGA_OLD":"Добро пожаловать в похоронное бюро Ваньшэн!",
+    
+    "NO_COMMAND_DEFINED":"Нет такой команды!",
+
+    "DAYS":"д",
+    "HOURS":"ч",
+    "MINUTES":"минуты",
+    "SECONDS":"и"
 }
