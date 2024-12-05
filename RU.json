@@ -1,19 +1,33 @@
 {
     "NOT_IMPLEMENTED":"Данное меню недоступно в данной версии игры!",
+
+    "HELP_COMMANDS": "Все команды:\n{commands}\n\n{example}",
     
     "THEMES":"Все темы: {themes}",
     "THEMES_EXAMPLE":"Пример: /theme 14",
     "THEMES_INVALID":"Невалидная тема!",
     "THEMES_OK":"Тема установлена! Пожалуйста, перезайди в меню.",
+    "THEMES_HELP_NAME": "theme (id темы)",
+    "THEMES_DESC": "смена темы",
     
     "TROPHIES_EXAMPLE":"Пример: /setTrophies 100",
     "TROPHIES_RESET":"Трофеи были успешно сброшены! Пожалуйста, перезайди в меню!",
     "TROPHIES_INVALID":"Невалидное количество кубков!",
     "TROPHIES_OK":"Трофеи успешно установлены! Пожалуйста, перезайди в меню!",
+    "TROPHIES_HELP_NAME": "setTrophies (количество трофеев)",
+    "TROPHIES_DESC": "сменить количество трофеев",
     
     "BRAWLER_TROPHIES_EXAMPLE":"Пример: /setBrawlerTrophies 100",
     "BRAWLER_TROPHIES_INVALID":"Невалидное количество кубков!",
     "BRAWLER_TROPHIES_OK":"Трофеи успешно установлены! Пожалуйста, перезайди в меню!",
+    "BRAWLER_TROPHIES_HELP_NAME": "setBrawlerTrophies (количество трофеев)",
+    "BRAWLER_TROPHIES_DESC": "сменить количество трофеев у бравлера",
+
+    "ADD_GEMS_EXAMPLE": "Пример: /addGems 100",
+    "ADD_GEMS_INVALID": "Невалидное количество кристаллов!",
+    "ADD_GEMS_OK": "Кристаллы успешно добавлены!",
+    "ADD_GEMS_HELP_NAME": "addGems (количество кристаллов)",
+    "ADD_GEMS_DESC": "добавить кристаллы",
     
     "BRAWL_PASS_PACK_NOT_IMPLEMENTED":"Приобретение набора BRAWL PASS недоступно в данной версии игры!",
     

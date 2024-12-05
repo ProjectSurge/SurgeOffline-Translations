@@ -1,24 +1,38 @@
 {
     "NOT_IMPLEMENTED":"Единственно, в этом меню данной версии игры!",
     
+    "HELP_COMMANDS": "Все команды:\n{commands}\n\n{example}",
+
     "THEMES":"Все темы: {themes}",
     "THEMES_EXAMPLE":"Например: /theme 14",
     "THEMES_INVALID":"Тема неверна!",
     "THEMES_OK":"Установка темы! Пожалуйста, вернитесь к меню.",
+    "THEMES_HELP_NAME": "theme (идентификатор заголовка)",
+    "THEMES_DESC": "меняю тему",
     
     "TROPHIES_EXAMPLE":"Например: /setTrophies 100",
     "TROPHIES_RESET":"Трофей был успешно разыгран! Пожалуйста, снова войдите в меню!",
     "TROPHIES_INVALID":"Количество чашек указано неверно!",
     "TROPHIES_OK":"Трофей был успешно установлен! Пожалуйста, снова войдите в меню!",
-    
+    "TROPHIES_HELP_NAME": "setTrophies (количество присужденных премий)",
+    "TROPHIES_DESC": "изменить количество трофеев",
+
     "BRAWLER_TROPHIES_EXAMPLE":"Например: /setBrawlerTrophies 100",
     "BRAWLER_TROPHIES_INVALID":"Количество чашек указано неверно!",
     "BRAWLER_TROPHIES_OK":"Трофей был успешно установлен! Пожалуйста, снова войдите в меню!",
+    "BRAWLER_TROPHIES_HELP_NAME": "setBrawlerTrophies (количество присужденных премий)",
+    "BRAWLER_TROPHIES_DESC": "изменить количество призов, вручаемых бравлеру",
+
+    "ADD_GEMS_EXAMPLE": "Например: /addGems 100",
+    "ADD_GEMS_INVALID": "Неправильное количество стаканов!",
+    "ADD_GEMS_OK": "Кристаллы добавлены хорошо!",
+    "ADD_GEMS_HELP_NAME": "addGems (количество кристаллов)",
+    "ADD_GEMS_DESC": "добавить зеркало",
+
+    "BRAWL_PASS_PACK_NOT_IMPLEMENTED": "Покупка пакета Brawl Pass недоступна для этой версии игры!",
     
-    "BRAWL_PASS_PACK_NOT_IMPLEMENTED":"Покупка набора Brawl Pass недоступна для этой версии игры!",
-    
-    "LOCAL_SPECIAL_OFFER":"Специальная акция!",
-    "LOCAL_LEGENDARY_OFFER":"Легендарная акция!",
+    "LOCAL_SPECIAL_OFFER":"Значительное улучшение!",
+    "LOCAL_LEGENDARY_OFFER":"Традиционная акция!",
     
     "SLOW_MODE_ON":"Медленный режим включен!",
     "SLOW_MODE_OFF":"Медленный режим отключен!",

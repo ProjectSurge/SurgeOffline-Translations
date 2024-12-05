@@ -1,20 +1,34 @@
 {
     "NOT_IMPLEMENTED":"This menu is not available in this version of the game!",
     
+    "HELP_COMMANDS": "Commands:\n{commands}\n\n{example}",
+
     "THEMES":"All themes: {themes}",
     "THEMES_EXAMPLE":"Example: /theme 14",
     "THEMES_INVALID":"Invalid theme!",
     "THEMES_OK":"Theme set! Please rejoin the menu.",
+    "THEMES_HELP_NAME": "theme (theme id)",
+    "THEMES_DESC": "change theme",
     
     "TROPHIES_EXAMPLE":"Example: /setTrophies 100",
     "TROPHIES_RESET":"Trophies have been successfully reset! Please re-enter the menu!",
     "TROPHIES_INVALID":"Invalid amount of trophies!",
     "TROPHIES_OK":"Trophies have been successfully set! Please re-enter the menu!",
-    
+    "TROPHIES_HELP_NAME": "setTrophies (trophies amount)",
+    "TROPHIES_DESC": "change trophies amount",
+
     "BRAWLER_TROPHIES_EXAMPLE":"Example: /setBrawlerTrophies 100",
     "BRAWLER_TROPHIES_INVALID":"Invalid amount of trophies!",
     "BRAWLER_TROPHIES_OK":"Trophies have been successfully set! Please re-enter the menu!",
-    
+    "BRAWLER_TROPHIES_HELP_NAME": "setBrawlerTrophies (trophies amount)",
+    "BRAWLER_TROPHIES_DESC": "change brawler trophies amount",
+
+    "ADD_GEMS_EXAMPLE": "Example: /addGems 100",
+    "ADD_GEMS_INVALID": "Invalid amount of gems!",
+    "ADD_GEMS_OK": "Gems have been successfully added!",
+    "ADD_GEMS_HELP_NAME": "addGems (gems amount)",
+    "ADD_GEMS_DESC": "add gems",
+
     "BRAWL_PASS_PACK_NOT_IMPLEMENTED":"The purchase of the BRAWL PASS BUNDLE is not available in this version of the game!",
     
     "LOCAL_SPECIAL_OFFER":"Special offer!",
@@ -72,7 +86,6 @@
     "CHANGE_THEME_BUTTON":"Change Theme",
     "CHANGE_THEME_TITLE":"Select Theme",
     "CHANGE_THEME_ALREADY_SELECTED":"This theme already selected! Select another one!",
-    "CHANGE_THEME_EVENT":"You can't change the theme during an event! You can disable events in the Debug menu!",
     
     "BIRTHDAY_TITLE":"Choose your Birthday!",
 
